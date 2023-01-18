@@ -30,7 +30,6 @@ const posts = [
 
 
 function render(posts) {
-    document.getElementById('body-1').innerHTML = ''
     let html = ''
     for (let i = 0; i < posts.length; i++) {
         html += `
