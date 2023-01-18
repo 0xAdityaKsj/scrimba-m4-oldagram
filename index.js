@@ -58,12 +58,6 @@ function render(posts) {
     document.getElementById('body-1').innerHTML += html;
 }
 
-render(posts);
-
-document.querySelector('.img5').addEventListener("click", function () {
-    console.log("its working fine")
-})
-
 
 
 
