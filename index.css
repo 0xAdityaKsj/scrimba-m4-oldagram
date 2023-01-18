@@ -1,0 +1,130 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    width: 375px;
+}
+
+footer p {
+    margin: 0;
+}
+
+.parent-container {
+    margin-top: 10px;
+    border-bottom: 1px solid #C6C6C6;
+    width: 375px;
+    height: 67px;
+}
+
+.container {
+    padding: 16px 16px 18px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-2 {
+    width: 375px;
+    display: flex;
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer-div1 {
+    width: 375px;
+    padding-top: 21px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.like-count {
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    line-height: 16.34px;
+    padding: 13.76px 19px 13px 13px;
+}
+
+
+.img1 {
+    height: 50px;
+}
+
+
+.img2 {
+    border-radius: 50%;
+    height: 34px;
+    width: 34px;
+    left: 325px;
+    top: 16px;
+
+}
+
+.img3 {
+    margin-top: 6px;
+    padding: 10px;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+}
+
+.img4 {
+    width: 375px;
+    height: 375px;
+}
+
+.img5,
+.img6,
+.img7 {
+    width: 23px;
+    height: 23px;
+}
+
+.img5:hover,
+.img6:hover,
+.img7:hover {
+    opacity: 0.5;
+}
+
+.img6,
+.img7 {
+    padding-left: 10px;
+}
+
+.span1,
+.span2 {
+    font-family: 'Source Sans Pro';
+}
+
+.span1 {
+    font-weight: 700;
+    line-height: 16.34px;
+}
+
+.span2 {
+    font-weight: 400;
+}
+
+.random-user {
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    line-height: 16px;
+
+}
+
+.comment {
+    padding: 0px 19px 13px 13px;
+    font-family: Source Sans Pro;
+    font-weight: 400;
+    line-height: 16px;
+}
