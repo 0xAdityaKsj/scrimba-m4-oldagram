@@ -58,6 +58,7 @@ function render(posts) {
     document.getElementById('body-1').innerHTML += html;
 }
 
+render(posts)
 
 
 
